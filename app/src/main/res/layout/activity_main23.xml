@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38b6ff"
+    tools:context=".MainActivity23">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/crafty_girls"
+        android:text="Create Your Own Quiz! Don't break the fun Chain:)"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="@color/white"
+        android:text="HomePage"
+        android:textColor="@color/black" />
+</LinearLayout>

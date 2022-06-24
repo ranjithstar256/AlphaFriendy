@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#38b6ff"
+    tools:context=".MainActivity24">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/henny_penny"
+        android:text="View Answers...See who answered your question"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/a1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textview"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="40dp"
+            android:text="Name"/>
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:text="VIEW"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="109dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/a2"
+
+            tools:srcCompat="@tools:sample/avatars" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="40dp"
+            android:text="Name"/>
+
+        <Button
+            android:id="@+id/view1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:text="VIEW"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>

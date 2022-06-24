@@ -1,0 +1,51 @@
+package kpr.am.friendy;
+
+public class Detail {
+
+    // variables for storing our data.
+    private String Name;    private String Loc;    private String Phone;    private String Password;
+
+    public Detail() {
+        // empty constructor
+        // required for Firebase.
+    }
+
+    // Constructor for all variables.
+    public Detail(String Name, String Loc, String Phone, String Password) {
+        this.Name = Name;        this.Loc = Loc;
+        this.Phone = Phone;        this.Password = Password;
+    }
+
+    // getter methods for all variables.
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String Name) {
+        this.Name = Name;
+    }
+
+    public String getLoc() {
+        return Loc;
+    }
+
+    // setter method for all variables.
+    public void setLoc(String loc) {
+        this.Loc = Loc;
+    }
+
+    public String getPhone() {
+        return Phone;
+    }
+
+    public void setPhone(String courseDuration) {
+        this.Phone = Phone;
+    }
+    public String getPassword() {
+        return Password;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
+}

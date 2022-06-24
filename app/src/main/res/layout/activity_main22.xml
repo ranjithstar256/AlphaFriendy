@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#38b6ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/crafty_girls"
+        android:text="Look What Bavithira Has Answered :)"
+        android:textColor="@color/white"
+        android:textSize="40dp">
+
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/box"
+            android:paddingLeft="60dp"
+            android:text="Question 1"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/box"
+            android:paddingLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:text="Answer 1"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/box"
+            android:paddingLeft="60dp"
+            android:text="Question 2"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/box"
+            android:paddingLeft="60dp"
+            android:layout_marginTop="70dp"
+            android:text="Answer 2"
+            android:textColor="@color/white" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="Next"
+        android:textColor="@color/black" />
+</LinearLayout>

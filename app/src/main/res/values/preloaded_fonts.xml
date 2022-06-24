@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aldrich</item>
+        <item>@font/arbutus</item>
+        <item>@font/artifika</item>
+        <item>@font/autour_one</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/beth_ellen</item>
+        <item>@font/bonbon</item>
+        <item>@font/butterfly_kids</item>
+        <item>@font/caesar_dressing</item>
+        <item>@font/ceviche_one</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/cookie</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/diplomata</item>
+        <item>@font/fontdiner_swanky</item>
+        <item>@font/lobster</item>
+    </array>
+</resources>
